@@ -1,34 +1,36 @@
-# Social media share buttons
+# Share link in various ways to social networks
 
 ## About
 
-Instagram, YouTube, gather your community with social media sharing buttons on product pages.
+Pro version of [ps_sharebuttons][ps_sharebuttons], more share options in your shop!
 
-## Multistore compatibility
+## Compatibility
 
-This module is compatible with multistore ✔
+as this project is forked from [ps_sharebuttons][ps_sharebuttons 2.1.2], it is excepted to work like a charm with all existing features and bugs
 
+for examplex:
 - It can be configured differently from one store to another.
 - It can be configured quickly in the same way on all stores thanks to the all shops context or using shop groups.
 - It can be activated on one store and deactivated on another
 
-## Reporting issues
+## Added features in this Fork
 
-You can report issues with this module in the main PrestaShop repository. [Click here to report an issue][report-issue]. 
+ability to share link in telegram, whatsapp and email
 
-## Contributing
+## Wanna contribute?
 
-PrestaShop modules are open source extensions to the [PrestaShop e-commerce platform][prestashop]. Everyone is welcome and even encouraged to contribute with their own improvements!
+contribtions are welcome!
 
-Just make sure to follow our [contribution guidelines][contribution-guidelines].
+currently i have these improvments in mind :
+- copy to clipboard option
+- add a user costumazable field in options
+
 
 ## License
 
 This module is released under the [Academic Free License 3.0][AFL-3.0] 
 
-[report-issue]: https://github.com/PrestaShop/PrestaShop/issues/new/choose
-[prestashop]: https://www.prestashop.com/
-[contribution-guidelines]: https://devdocs.prestashop.com/1.7/contribute/contribution-guidelines/project-modules/
+[ps_sharebuttons]: https://github.com/PrestaShop/ps_sharebuttons
 [AFL-3.0]: https://opensource.org/licenses/AFL-3.0
 [1]: http://doc.prestashop.com/display/PS16/Coding+Standards
 [2]: http://doc.prestashop.com/display/PS16/How+to+write+a+commit+message
