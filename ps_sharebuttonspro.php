@@ -229,7 +229,7 @@ class Ps_Sharebuttonspro extends Module implements WidgetInterface
             $social_share_links['telegram'] = [
                 'label' => $this->trans('Telegram', [], 'Modules.Sharebuttonspro.Shop'),
                 'class' => 'telegram',
-                'url' => 'https://t.me/send?t=' . $sharing_img . '&url=' . $sharing_url,
+                'url' => 'https://telegram.me/share/url?url=' . $sharing_img . '&url=' . $sharing_url,
             ];
         }
 
@@ -237,7 +237,7 @@ class Ps_Sharebuttonspro extends Module implements WidgetInterface
             $social_share_links['whatsapp'] = [
                 'label' => $this->trans('Whatsapp', [], 'Modules.Sharebuttonspro.Shop'),
                 'class' => 'whatsapp',
-                'url' => 'https://wa.me/api?n=' . $sharing_img . '&url=' . $sharing_url,
+                'url' => 'https://api.whatsapp.com/send?text=' . $sharing_name . ' ' . $sharing_url,
             ];
         }
 
@@ -253,7 +253,7 @@ class Ps_Sharebuttonspro extends Module implements WidgetInterface
             $social_share_links['copy'] = [
                 'label' => $this->trans('Copy', [], 'Modules.Sharebuttonspro.Shop'),
                 'class' => 'copy',
-                'url' => 'https://' . $sharing_img . '&url=' . $sharing_url,
+                'url' => 'copy://' . $sharing_img . '&url=' . $sharing_url,
             ];
         }
 
@@ -261,7 +261,7 @@ class Ps_Sharebuttonspro extends Module implements WidgetInterface
             $social_share_links['other'] = [
                 'label' => $this->trans('Other', [], 'Modules.Sharebuttonspro.Shop'),
                 'class' => 'othr',
-                'url' => 'https://' . $sharing_img . '&url=' . $sharing_url,
+                'url' => 'other://' . $sharing_img . '&url=' . $sharing_url, $sha
             ];
         }
 

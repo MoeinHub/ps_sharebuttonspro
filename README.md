@@ -24,6 +24,8 @@ contribtions are welcome!
 currently i have these improvments in mind :
 - copy to clipboard option
 - add a user costumazable field in options
+- translations
+- remove update-related functions (from ps 1.6)
 
 
 ## License
