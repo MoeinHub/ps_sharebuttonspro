@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ps_sharebuttonspro</name>
+	<displayName><![CDATA[Add option for costumer to share product page link easily]]></displayName>
+	<version><![CDATA[2.1.2]]></version>
+	<description><![CDATA[Displays social media sharing buttons (Telegram, Whatsapp, Copy to clipboard and Much more) on every product page.]]></description>
+	<author><![CDATA[MoeinHub]]></author>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
