@@ -260,7 +260,7 @@ class Ps_Sharebuttonspro extends Module implements WidgetInterface
         if (Configuration::get('PS_SC_OTHER')) {
             $social_share_links['other'] = [
                 'label' => $this->trans('Other', [], 'Modules.Sharebuttonspro.Shop'),
-                'class' => 'othr',
+                'class' => 'other',
                 'url' => 'other://' . $sharing_img . '&url=' . $sharing_url, $sha
             ];
         }
