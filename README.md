@@ -32,6 +32,3 @@ This module is released under the [Academic Free License 3.0][AFL-3.0]
 
 [ps_sharebuttons]: https://github.com/PrestaShop/ps_sharebuttons
 [AFL-3.0]: https://opensource.org/licenses/AFL-3.0
-[1]: http://doc.prestashop.com/display/PS16/Coding+Standards
-[2]: http://doc.prestashop.com/display/PS16/How+to+write+a+commit+message
-[3]: https://help.github.com/articles/using-pull-requests
